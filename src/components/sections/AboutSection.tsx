@@ -55,7 +55,7 @@ export function AboutSection() {
                 ].map((hl) => (
                   <div key={hl.title} className="glass-card rounded-xl p-4 text-center">
                     <div className="text-2xl mb-2">{hl.icon}</div>
-                    <div className="text-sm font-semibold text-white">{hl.title}</div>
+                    <div className="text-sm font-semibold text-foreground">{hl.title}</div>
                     <div className="text-xs text-text-muted mt-1">{hl.desc}</div>
                   </div>
                 ))}
@@ -85,7 +85,7 @@ export function AboutSection() {
                 production systems.
               </p>
               <div>
-                <p className="text-white font-semibold">Afzal Khan</p>
+                <p className="text-foreground font-semibold">Afzal Khan</p>
                 <p className="text-text-muted text-sm">AI Engineer, Co-founder</p>
               </div>
             </motion.div>
